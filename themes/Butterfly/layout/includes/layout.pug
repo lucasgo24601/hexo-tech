@@ -76,12 +76,8 @@ html(lang=config.language data-theme=theme.display_mode)
       - var is_bg = theme.footer_bg == false ? 'color' : 'photo'
       footer#footer(style=footer_bg data-type=is_bg)
         include ./footer.pug    
-    include ./rightside.pug
+    //- include ./rightside.pug
     each item in theme.CDN_USE.js
       script(src=url_for(item))
     include ./additional-js.pug
     include ./search/index.pug
-
-    
-
-    

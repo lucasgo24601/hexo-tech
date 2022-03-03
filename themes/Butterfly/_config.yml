@@ -9,7 +9,6 @@ menu:
   時間軸: /archives/ || fa fa-archive
   標籤: /tags/ || fa fa-tags
   分類: /categories/ || fa fa-folder-open
-  關於: /about/ || fa fa-heart
 
 # Favicon
 # ---------------
@@ -438,7 +437,7 @@ avatar_effect: true
 # 網站顯示模式
 # light 默認模式
 # dark 黑暗模式（不建議）
-display_mode: light
+display_mode: dark
 
 # 美化post頁顯示
 post_beautify:
@@ -630,7 +629,6 @@ CDN_USE:
     - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
     - /js/utils.js
     - /js/main.js
-    - /js/self.js
     - /js/botui.js
     
 # CDN

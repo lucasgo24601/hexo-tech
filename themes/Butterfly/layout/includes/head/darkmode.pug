@@ -2,7 +2,7 @@ script.
   const autoChangeMode = '#{theme.autoChangeMode}'
   var t = Cookies.get("theme");
   if (autoChangeMode == '1'){
-  const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  const isDarkMode =  true
   const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
   const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
   const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
@@ -25,12 +25,9 @@ script.
     now = new Date();
     hour = now.getHours();
     isNight = hour < 6 || hour >= 18
-    if(t === undefined) isNight? activateDarkMode() : activateLightMode()
-    else if (t === 'light') activateLightMode()
-    else activateDarkMode() 
+    activateDarkMode() 
   } else {
-    if ( t == 'dark' ) activateDarkMode()
-    else if ( t == 'light') activateLightMode()
+    activateDarkMode()
   }
 
   function activateDarkMode(){

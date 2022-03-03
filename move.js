@@ -6,6 +6,9 @@ const TARGET_FOLDER_PATH = "./publish";
 const SAVE_DIR_FILES = [".git", "README.md"]
 
 const cleanFun = (rootPath) => {
+    if (fs.existsSync(rootPath) == false) {
+        return
+    }
     let list = fs.readdirSync(rootPath)
     list.forEach(item => {
         if (SAVE_DIR_FILES.indexOf(item) != -1) {
@@ -21,6 +24,9 @@ const cleanFun = (rootPath) => {
 }
 
 const moveFun = () => {
+    if (fs.existsSync(SOURCE_FOLDER_PATH) == false) {
+        return
+    }
     let list = fs.readdirSync(SOURCE_FOLDER_PATH)
     list.forEach((item) => {
         let sourcePath = SOURCE_FOLDER_PATH + "/" + item

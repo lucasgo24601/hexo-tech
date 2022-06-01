@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "hexo clean & hexo deploy & node ./move.js & hexo clean",
-    "commit": "cd publish & git add . & git commit -m 'update' & git push",
-    "deploy": "npm start & npm run commit"
+    "start": "bash ./src/start.sh",
+    "push": "bash ./src/push.sh",
+    "deploy": "bash ./scr/deploy.sh"
   },
   "hexo": {
     "version": "4.2.1"

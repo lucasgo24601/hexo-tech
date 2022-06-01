@@ -1,5 +1,8 @@
 echo "================================================= initializing"
 git submodule update --init -f
+cd publish
+git checkout master
+cd ..
 node ./src/clean.js
 hexo clean
 echo "================================================= deploy"

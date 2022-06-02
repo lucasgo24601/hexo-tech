@@ -72,8 +72,5 @@ include ./head/google_adsense.pug
 //- analytics
 include ./head/analytics.pug
 
-if !is_post()
-  link(rel="preload" href=url_for(top_img)  as="image" )
-
 if theme.blog_title_font.font_link
   link(rel='stylesheet', href=url_for(theme.blog_title_font.font_link))

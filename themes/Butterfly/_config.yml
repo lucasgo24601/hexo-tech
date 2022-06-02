@@ -1,3 +1,5 @@
+url: https://lucasgo24601.github.io
+root: /blog-tech/
 # Main menu navigation
 # ---------------
 # format: xxx: 連結 || icon
@@ -10,6 +12,7 @@ menu:
   標籤: /tags/ || fa fa-tags
   分類: /categories/ || fa fa-folder-open
   關於: /about/ || fa fa-heart
+
 
 # Favicon
 # ---------------
@@ -114,7 +117,6 @@ post_top_img:
 # the banner image of index
 
 index_img: 
-  - https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80
   - https://images.unsplash.com/photo-1581568703544-dd4723f45da9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80
   - https://images.unsplash.com/photo-1581691859760-8154bf4011ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
   - https://images.unsplash.com/photo-1581652916651-691046fda4ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80
@@ -279,7 +281,7 @@ tencent_analytics:
 # ---------------
 # Google Adsense
 google_adsense:
-  enable: true
+  enable: false
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client: ca-pub-6174969164871716
   enable_page_level_ads: true
@@ -438,7 +440,7 @@ avatar_effect: true
 # 網站顯示模式
 # light 默認模式
 # dark 黑暗模式（不建議）
-display_mode: light
+display_mode: dark
 
 # 美化post頁顯示
 post_beautify:
@@ -455,8 +457,8 @@ font:
 # 網站名字字體
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
-  font_link: https://fonts.googleapis.com/css?family=sans-serif #字體鏈接
-  font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
+  font_link: null #https://fonts.googleapis.com/css?family=sans-serif #字體鏈接
+  font-family: #Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
 
 # 水平分隔綫
 hr:
@@ -621,7 +623,6 @@ Open_Graph_meta: true
 CDN_USE:
   css:
     - /css/index.css
-    - /css/sakula/style.css
     - /css/sakula/botui.min.css
     - /css/sakula/botui-theme-default.css
     - https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css

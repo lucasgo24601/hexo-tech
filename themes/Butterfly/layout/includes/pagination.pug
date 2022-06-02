@@ -16,7 +16,7 @@ else
       if(page.next)
         .prev-post.pull_left
           - var pagination_cover = page.prev.cover
-          a(href=url_for(page.prev.path))
+          a(href=url_for( page.prev.path))
             if theme.lazyload.enable
               img.prev_cover.lazyload(data-src=`${pagination_cover}` onerror=`onerror=null;src='${theme.lodding_bg.post_page}'` )
             else

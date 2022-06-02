@@ -53,7 +53,7 @@ block top_img
                 span.post-meta__separator |
               i.fa.fa-comment-o.post-meta__icon.fa-fw(aria-hidden="true")
               span= _p('post.comments') + ':'
-              a(href=url_for(page.path) + '#post-comment')
+              a(href=url_for( page.path) + '#post-comment')
                 span.disqus-comment-count(data-disqus-url=page.permalink)
             if (theme.valine && theme.valine.enable && theme.valine.count && page.comments !== false)
               if (theme.busuanzi && theme.busuanzi.page_pv)

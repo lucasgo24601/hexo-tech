@@ -5,7 +5,7 @@
   "scripts": {
     "start": "bash ./src/start.sh",
     "push": "bash ./src/push.sh",
-    "deploy": "bash ./scr/deploy.sh"
+    "deploy": "bash ./src/deploy.sh"
   },
   "hexo": {
     "version": "4.2.1"

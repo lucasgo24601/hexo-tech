@@ -9,10 +9,6 @@ if (theme.fancybox && theme.fancybox.enable)
 
 include ./math/index.pug 
 
-if theme.fireworks && theme.fireworks.enable
-  script(src=url_for(theme.CDN.anime))
-  script(src=url_for(theme.CDN.fireworks))
-
 if (theme.snackbar && theme.snackbar.enable)
   script(src=url_for(theme.CDN.snackbar))
 

@@ -393,7 +393,7 @@ canvas_ribbon_piao:
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: true
+  enable: false
   color: "61, 132, 200" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 1 # the opacity of line (0~1), default: 0.5.
   zIndex: -1000 # z-index property of the background, default: -1.
@@ -414,7 +414,7 @@ fireworks:
 
 # 點擊出現愛心
 click_heart:
-  enable: true
+  enable: false
 
 # 點擊出現文字，文字可自行修改
 ClickShowText:
@@ -660,11 +660,6 @@ CDN:
   #不蒜子計數器
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
-  # 背景特效
-  canvas_ribbon: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/canvas-ribbon.js
-  canvas_ribbon_piao: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/piao.js
-  canvas_nest: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/canvas-nest.js
-
   lazyload: https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js
   instantpage: https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js
 
@@ -681,7 +676,6 @@ CDN:
   #鼠标点击特效
   anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
   activate_power_mode: https://cdn.jsdelivr.net/npm/activate-power-mode/dist/activate-power-mode.min.js
-  fireworks: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/fireworks.js
   click_heart: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js
   ClickShowText: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/ClickShowText.js
 

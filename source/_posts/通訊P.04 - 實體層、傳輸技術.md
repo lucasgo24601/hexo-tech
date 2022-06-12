@@ -1,6 +1,6 @@
 ---
 title: 通訊P.04 - 實體層、傳輸技術
-date: 
+date: 2020-03-04 13:00:00
 categories: 通訊協定系列
 comments: true
 top_img: 

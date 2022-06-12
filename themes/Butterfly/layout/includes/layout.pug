@@ -41,8 +41,6 @@ html(lang=config.language data-theme=theme.display_mode)
     include ./head.pug
     include ./config.pug
   body
-    if theme.fireworks && theme.fireworks.enable
-      canvas.fireworks
     //- !=partial('includes/header.pug', {}, {cache: true})
     include ./header.pug
     include ./mobile-sidebar.pug
@@ -80,7 +78,3 @@ html(lang=config.language data-theme=theme.display_mode)
       script(src=url_for(item))
     include ./additional-js.pug
     include ./search/index.pug
-
-    
-
-    

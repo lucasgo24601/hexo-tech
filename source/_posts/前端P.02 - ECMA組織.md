@@ -1,6 +1,6 @@
 ---
 title: 前端P.02 - ECMA、腳本語言
-date: 
+date: 2020-02-12 13:00:00
 categories: 前端系列
 comments: true
 top_img: 

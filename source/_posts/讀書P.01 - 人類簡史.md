@@ -1,6 +1,6 @@
 ---
 title: 讀書P.01 - 人類簡史
-date: 
+date: 2020-03-06 13:00:00
 categories: 讀書心得系列
 comments: true
 top_img: 

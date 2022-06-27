@@ -8,6 +8,7 @@ root: /blog-tech/
 #   xxx || 連結 || icon
 menu:
   首頁: / || fa fa-home
+  週報: /newsletter || fa fa-newspaper-o
   時間軸: /archives/ || fa fa-archive
   標籤: /tags/ || fa fa-tags
   分類: /categories/ || fa fa-folder-open
@@ -355,7 +356,7 @@ index_top_img_height: #主頁top_img高度 例如 300px/300em/300rem  不能使�
 # 主頁文章COVER顯示位置
 # 三個值可配置 left , right , both
 # left(全部圖片顯示在左邊)，right(全部圖片顯示在右邊)，both(左右左右順序顯示)
-index_post_cover: both
+index_post_cover: left
 
 # category和tag頁的UI設置
 # index 值代表 UI將與首頁的UI一樣
@@ -492,11 +493,11 @@ aside_mobile: true
 aside:
   position: right # left or right
   card_author: true
-  card_announcement: true
-  card_recent_post: true
-  card_categories: true
-  card_tags: true
+  card_announcement: false
   card_archives: true
+  card_categories: true
+  card_recent_post: false
+  card_tags: true
   card_webinfo: true
 
 # 網站公告

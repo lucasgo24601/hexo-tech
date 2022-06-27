@@ -5,6 +5,7 @@ categories: 通訊協定系列
 comments: true
 top_img: 
 cover: https://i.imgur.com/ZkUVSc3.png
+type: post
 toc: true
 toc_number: 150
 copyright: true

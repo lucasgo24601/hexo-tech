@@ -12,7 +12,6 @@ block content
         include includes/comments/index.pug
     #aside_content.aside_content
       include includes/widget/index.pug
-
   else if page.type === 'link'
     include flink.pug
       if page.comments !== false
@@ -35,6 +34,17 @@ block content
       include ./about.ejs
       if page.comments !== false
         include includes/comments/index.pug
+    #aside_content.aside_content
+      include includes/widget/index.pug
+  else if page.type === 'newsletter'
+
+    include ./includes/mixins/article-sort.pug
+    #archive
+      h2= "從2022年7月開始，我決定為自己制定個小目標，每個禮拜都要更新一次週報。每周日更新，聊聊我最近關注的事情、有趣的訊息、還有值得分享的東西。"
+      .article-sort-title= _p('page.articles') + ' - ' + site.posts.length
+      +newsletterSort(site.posts)
+      include includes/pagination.pug
+
     #aside_content.aside_content
       include includes/widget/index.pug
   else

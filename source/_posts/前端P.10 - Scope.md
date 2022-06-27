@@ -5,6 +5,7 @@ categories: 前端系列
 comments: true
 top_img: 
 cover: https://i.imgur.com/9tlzw6N.jpg
+type: post
 toc: true
 toc_number: 150
 copyright: true
